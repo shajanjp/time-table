@@ -1,13 +1,15 @@
 {
-  "name": "time-table",
+  "name": "@shajanjp/time-table",
   "version": "0.0.1",
   "description": "",
   "main": "index.js",
-  "bin": "index.js",
+  "bin": {
+    "time-table": "index.js"
+  },
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "type": "module",
-  "author": "Shajan Jacob<shajanjp@gmail.com>",
+  "author": "Shajan Jacob <shajanjp@gmail.com>",
   "license": "ISC"
 }
