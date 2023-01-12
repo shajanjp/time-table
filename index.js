@@ -40,6 +40,7 @@ function processFileData(data) {
       
       case (lineContent.startsWith('/')): {
         currentEntry[lineContent.split(' ')[0].substring(1)] = lineContent.split(' ')[1];
+        
         break;
       }
 
